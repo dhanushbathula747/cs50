@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main()
 {
-    int c;
-    scanf("%d",&c);
+    int c;//Assign a variable
+    scanf("%d",&c);//Input the variable
     for (int i=0;i<=c;i++)
     {
         for (int j=0;j<=c-i;j++)
@@ -18,6 +18,6 @@ void main()
         {
             printf("#");
         }
-        printf("\n");
+        printf("\n");//Last print
     }
 }
